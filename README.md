@@ -15,7 +15,7 @@ Babel
 ## Installation
 
 ```bash
-yarn or npm install
+yarn
 ```
 
 ## Server
