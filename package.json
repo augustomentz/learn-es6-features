@@ -5,7 +5,23 @@
   "repository": "https://github.com/augustomentz/learn-es6-features.git",
   "author": "Augusto Mentz",
   "license": "MIT",
+  "scripts": {
+    "server": "webpack-dev-server --inline --open",
+    "dev": "webpack --colors --progress --mode development",
+    "build": "webpack --colors --progress",
+    "watch": "yarn build -- --watch"
+  },
   "dependencies": {
-    "axios": "^0.19.2"
+    "rambda": "^5.12.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   }
 }
